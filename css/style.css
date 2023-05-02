@@ -1,0 +1,76 @@
+    /* CSS para el header */
+    body {
+        background-color: rgb(189, 255, 255);
+        padding: 10px;
+    }
+header {
+
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* CSS para los enlaces del header */
+  header a {
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+  }
+
+  /* CSS para el aside */
+  aside {
+    float: right;
+    width: 25%;
+    background-color: rgb(189, 255, 255);
+    padding: 10px;
+  }
+
+  /* CSS para el footer */
+  footer {
+    padding: 10px;
+    text-align: left;
+    clear: both;
+  }
+
+  .responsive {
+    width: 40%;
+    height: auto;
+  }
+
+  /*Para el calendario*/
+
+
+  #calendar {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: lightgray;
+  }
+  
+  td {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .today {
+    background-color: lightblue;
+  }
